@@ -1,0 +1,121 @@
+.tieude{
+    text-align: center;
+    color: rgba(199, 75, 75, 0.844);
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    color:rgb(64, 64, 139);
+}
+.aa{
+    color: red;
+}
+
+
+.batdau{
+    background-color: rgba(245, 251, 223, 0.893);
+    margin:1px ;
+    padding: 1px;
+    color: red;
+    font-weight: bold;
+    font-size: 26px;
+}
+.batdau+ul{
+    margin-top: 8px;
+}
+
+.honey{
+ text-transform: uppercase;
+ color:rgb(222, 157, 37);
+  font-weight: bold;
+}
+.back{
+    color: red;
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+*{
+    box-sizing: border-box;
+}
+ body{
+    margin: 0;
+    padding: 5px;
+    font-family: 'Times New Roman', serif;
+    font-size: 14px;
+ }
+.khung{
+    width: 100%;
+    min-height: 420px;
+    border: 1px solid rgb(139, 50, 50);
+}
+hr{
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+li{
+    margin: 1px;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-left: 1px;
+}
+
+
+
+.dessert{
+    color: red;
+    background-color: rgba(245, 251, 223, 0.893);
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.menu {
+    background-color: rgb(239, 139, 143);
+    height: 42px;
+}
+
+.menu table {
+    border-collapse: collapse;
+    margin: auto;
+    height: 42px;
+}
+
+
+.menu th {
+    height: 42px;
+    padding: 0 18px;
+    text-align: center;
+    border-right: 1px solid rgb(180, 80, 90);
+}
+.menu td{
+    height: 42px;
+    padding: 15 ;
+    border:none;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.menu th a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu td input[type="text"] {
+    width: 110px;
+    height: 20px;
+    margin:10px;
+}
+
+.menu td input[type="submit"] {
+    height: 20px;
+    padding: 0 5px;
+}

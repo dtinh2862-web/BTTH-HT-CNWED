@@ -1,0 +1,151 @@
+.container {
+    width: 900px;
+    border: 1px solid black;
+    margin: 0 auto;
+    
+}
+.header {
+    width: 100%;
+    text-align: right;
+    border-bottom: 2px solid orange;
+}
+
+
+
+.content {
+ 
+    
+}
+
+.menu {
+    width: 25%;
+    min-height: 750px;
+    background-image: url(../IMAGE/back.jpg);
+    float: left;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.menu ul li {
+    width: 200px;
+    list-style: none;
+    padding: 7px;
+    border-bottom: 1px dashed rgb(190, 162, 85);
+}
+
+.menu ul {
+    margin-left: -35px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(74, 54, 163);
+}
+
+
+.noidung {
+    width: 75%;
+    margin-left: 25%;
+}
+
+.noidung1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.noidung1 img {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+
+.noidung1 p {
+    border: 5px solid;
+    border-style: inset;
+    width: 180px;
+    height: 180px;
+
+    margin: 0;
+    padding-top: 10px;
+    color: brown;
+    background-color: rgb(246, 246, 230);
+
+    position: absolute;
+    top: 20px;
+    right: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.noidung1 h3{
+    color: rgba(245, 205, 45, 0.919);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+   padding: 6px;
+   margin: 50px;
+}
+.noidung2 {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.noidung2 p {
+    border: 5px solid;
+    border-style: inset;
+    width: 180px;
+    height: 120px;
+
+    margin: 0;
+    padding-top: 10px;
+    color: brown;
+    background-color: rgb(246, 246, 230);
+
+    position: absolute;
+    top: -120px;
+    left: -17px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.noidung3{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.noidung3 p{
+     border: 5px solid;
+    border-style: inset;
+    width: 170px;
+    height: 120px;
+
+    margin: 0;
+    padding-top: 10px;
+    color: brown;
+    background-color: rgb(246, 246, 230);
+
+    position: absolute;
+    top: -140px;
+    right: 40px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+     
+}
+
+
+.footer {
+    width: 70%;
+    height: 30px;
+  
+    clear: both;
+    margin-left: 30%;
+    border-top: 2px solid orange;
+    color: rgb(201, 201, 19);
+   
+}
+
